@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>MrBerk Loading Screen</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <!-- Arkaya Şekil Şuku Video -->
+    <div class="mb_video">
+      <video autoplay loop>
+        <source src="assets/video/video.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Kim La Bu Oyuncu? -->
+    <div class="mb_player">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="mb_pp">
+              <img class="img-fluid" src="assets/img/user.png">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="mb_welcome" id="PlayerName">
+              <span>Welcome</span>
+            </div>
+            <div class="mb_name">
+              <span>Jhon Wick</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Server Adı -->
+    <div class="mb_server_name">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+              <p>Server Name</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Loading Bar -->
+    <div class="mb_loading">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <main>
+              <h1>Loading<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></h1>
+              <div id="container">
+                <div id="bar"></div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- <audio src="music1.mp3" id="music" autoplay></audio> -->
+      <script>
+       // var liste = [];
+       // liste[0] = "assets/music/1.mp3";
+       // liste[1] = "assets/music/2.mp3";
+       // liste[2] = "assets/music/3.mp3";
+       // liste[3] = "assets/music/4.mp3";
+       // liste[4] = "assets/music/5.mp3";
+       // liste[5] = "assets/music/6.mp6";
+
+       // var mix = Math.round( Math.random() * 5 );
+
+       // document.write("<embed src='"+liste[mix]+"'autostart=true hidden=true loop=true'>");
+       // liste.volume = 0.2; 
+      </script>
+
+      <!-- PLayer Name Import -->
+      <script type="text/javascript">
+        window.addEventListener('DOMContentLoaded', () => {
+        console.log(`You are connecting to ${window.nuiHandoverData.serverAddress}`);
+        document.querySelector('#PlayerName > span').innerText = window.nuiHandoverData.name;
+    });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

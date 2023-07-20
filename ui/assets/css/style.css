@@ -1,0 +1,252 @@
+.mb_video {
+    position: fixed;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -10;
+}
+
+/* video {
+    filter: opacity(1) brightness(1) grayscale(1);
+} */
+
+.mb_player {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.mb_player img {
+    width: 5%;
+}
+
+.mb_welcome {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.mb_name {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mb_welcome span {
+	text-shadow: 0 0 5px #00AEEF, 0 0 15px #00AEEF, 0 0 20px #00AEEF, 0 0 40px #00AEEF, 0 0 60px #2B3990, 0 0 10px #00AEEF, 0 0 98px #00AEEF;
+	color: #ffff;
+	text-align: center;
+	animation: blink 10s infinite;
+	-webkit-animation: blink 10s infinite;
+}
+
+@-webkit-keyframes blink {
+	20%,
+	24%,
+	55% {
+	  color: #111;
+	  text-shadow: none;
+	}
+	0%,
+	19%,
+	21%,
+	23%,
+	25%,
+	54%,
+	56%,
+	100% {
+	  text-shadow: 0 0 5px #00AEEF, 0 0 15px #00AEEF, 0 0 20px #00AEEF, 0 0 40px #00AEEF, 0 0 60px #2B3990, 0 0 10px #00AEEF, 0 0 98px #2B3990;
+	  color: #ffff;
+	}
+}
+
+@keyframes blink {
+	20%,
+	24%,
+	55% {
+	  color: #111;
+	  text-shadow: none;
+}
+	0%,
+	19%,
+	21%,
+	23%,
+	25%,
+	54%,
+	56%,
+	100% {
+	  text-shadow: 0 0 5px #00AEEF, 0 0 15px #00AEEF, 0 0 20px #00AEEF, 0 0 40px #00AEEF, 0 0 60px #2B3990, 0 0 10px #00AEEF, 0 0 98px #2B3990;
+	  color: #ffff;
+	}
+}
+
+.mb_name span {
+	text-shadow: 0 0 5px #e90707, 0 0 15px #e90707, 0 0 20px #e90707, 0 0 40px #e90707, 0 0 60px #2B3990, 0 0 10px #e90707, 0 0 98px #e90707;
+	color: #ffff;
+	text-align: center;
+	animation: bounce 15s infinite;
+	-webkit-animation: bounce 15s infinite;
+}
+  
+@-webkit-keyframes bounce {
+	20%,
+	24%,
+	55% {
+	  color: #111;
+	  text-shadow: none;
+	}
+	0%,
+	19%,
+	21%,
+	23%,
+	25%,
+	54%,
+	56%,
+	100% {
+	  text-shadow: 0 0 5px #e90707, 0 0 15px #e90707, 0 0 20px #e90707, 0 0 40px #e90707, 0 0 60px #2B3990, 0 0 10px #e90707, 0 0 98px #2B3990;
+	  color: #ffff;
+	}
+}
+
+@keyframes bounce {
+	20%,
+	24%,
+	55% {
+	  color: #111;
+	  text-shadow: none;
+}
+	0%,
+	19%,
+	21%,
+	23%,
+	25%,
+	54%,
+	56%,
+	100% {
+	  text-shadow: 0 0 5px #e90707, 0 0 15px #e90707, 0 0 20px #e90707, 0 0 40px #e90707, 0 0 60px #2B3990, 0 0 10px #e90707, 0 0 98px #2B3990;
+	  color: #ffff;
+	}
+}
+
+.mb_server_name {
+	text-align: center;
+	margin-top: 10%;
+	color: #ffff;
+}
+
+.mb_server_name p {
+	font-weight: bold;
+	font-size: 65px;
+}
+
+
+.mb_server_name p {
+	text-shadow: 0 0 5px #e8dd15, 0 0 15px #e8dd15, 0 0 20px #e8dd15, 0 0 40px #e8dd15, 0 0 60px #2B3990, 0 0 10px #e8dd15, 0 0 98px #e8dd15;
+	color: #ffff;
+	text-align: center;
+	animation: grow 5s infinite;
+	-webkit-animation: grow 5s infinite;
+}
+  
+@-webkit-keyframes grow {
+	20%,
+	24%,
+	55% {
+	  color: #ffff;
+	  text-shadow: none;
+	}
+	0%,
+	19%,
+	21%,
+	23%,
+	25%,
+	54%,
+	56%,
+	100% {
+	  text-shadow: 0 0 5px #e8dd15, 0 0 15px #e8dd15, 0 0 20px #e8dd15, 0 0 40px #e8dd15, 0 0 60px #2B3990, 0 0 10px #e8dd15, 0 0 98px #2B3990;
+	  color: #ffff;
+	}
+}
+
+@keyframes grow {
+	20%,
+	24%,
+	55% {
+	  color: #ffff;
+	  text-shadow: none;
+}
+	0%,
+	19%,
+	21%,
+	23%,
+	25%,
+	54%,
+	56%,
+	100% {
+	  text-shadow: 0 0 5px #e8dd15, 0 0 15px #e8dd15, 0 0 20px #e8dd15, 0 0 40px #e8dd15, 0 0 60px #2B3990, 0 0 10px #e8dd15, 0 0 98px #2B3990;
+	  color: #ffff;
+	}
+}
+
+.mb_loading {
+	text-align: center;
+	color: #ffff;
+	margin-top: 12%;
+}
+
+#container {
+	display: flex;
+	width: 965px;
+	height: 25px;
+	background: rgba(0, 0, 0, 0);
+	border-radius: 6px;
+	border: 1px solid rgba(105, 105, 105, 0.672);
+	align-items: center;
+}
+  
+@keyframes load {
+	from {transform: translate(0, 0)}
+	to {transform: translate(650px, 0)}
+}
+  
+#bar {
+	width: 300px;
+	height: 10px;
+	background: linear-gradient(to bottom right, cyan, lightblue);
+	border-radius: 6px;
+	box-shadow: 0 0 10px lightblue;
+	animation: load .25s infinite alternate ease-in-out;
+	text-align: center;
+}
+  
+@keyframes dots {
+	from {color: cyan; transform: translate(0, -10%);}
+	to {color: white; transform: translate(0, 0);}
+}
+  
+.dot {
+	display: inline-block;
+	font-size: 250%;
+}
+  
+.dot:nth-child(1) {
+	animation: dots .5s infinite alternate linear;
+}
+  
+.dot:nth-child(2) {
+	animation: dots 1s infinite alternate linear;
+}
+  
+.dot:nth-child(3) {
+	animation: dots 1.5s infinite alternate linear;
+}
+  
+h1 sub {
+	margin-left: 0;
+	font-size: 15%;
+	font-weight: normal;
+}
